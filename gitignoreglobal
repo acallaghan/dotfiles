@@ -1,0 +1,43 @@
+# OSX 
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+*.nfs*
+file_store
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# vim
+tags
+
+# Ruby/Rails
+*.gem
+*.rbc
+gems.tags
+.bundle
+config/database.yml
+config/mongoid.yml
+config/couchdb.yml
+config/google_storage.yml
+config/credentials*
+config/initializers/secret_token.rb
+config/master.key
+db/*.sqlite
+log/*.log
+coverage
+.sass-cache
+.powrc
+.idea
+.rspec
+webpack/manifest.json
+.byebug_history
+diagnostic.txt
+node_modules/
